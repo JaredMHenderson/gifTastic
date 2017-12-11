@@ -1,0 +1,15 @@
+.container-fluid {
+    max-width: 1280px;
+}
+
+#button-holder {
+    margin-top: 25px;
+}
+
+#celeb-button {
+    margin: 5px;
+}
+
+#addComedian {
+    margin-top: 15px;
+}
