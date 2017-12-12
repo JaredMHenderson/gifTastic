@@ -6,10 +6,18 @@
     margin-top: 25px;
 }
 
-#celeb-button {
+.celeb-button {
     margin: 5px;
 }
 
 #addComedian {
     margin-top: 15px;
+}
+
+#gifs-and-input {
+    margin-top: 25px;
+}
+
+.giphImage {
+    margin: 10px;
 }
