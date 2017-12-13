@@ -14,7 +14,7 @@ $(document).on('click', ".celeb-button",function(){
 
     var celebName = $(this).attr("data-name");
     var apiKey    = 'pZJltcsxr6vcCEcLjE4YOZPAdJeBeWS3';
-    var queryUrl  = `http://api.giphy.com/v1/gifs/search?q=${celebName}&api_key=${apiKey}&limit=10`;
+    var queryUrl  = `https://api.giphy.com/v1/gifs/search?q=${celebName}&api_key=${apiKey}&limit=10`;
 
 
 
