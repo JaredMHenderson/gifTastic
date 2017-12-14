@@ -33,7 +33,8 @@ $(document).on('click', ".celeb-button", function() {
             for (let i = 0; i < 10; i++) {
                 $('#gif-holder').append(`<img class="giphImage" src = "${response.data[i].images.fixed_height_still.url}"
                    data-still   = "${response.data[i].images.fixed_height_still.url}"
-                   data-animate = "${response.data[i].images.fixed_height.url}" data-state="still" style="height: 45%; width: 45%">`)
+                   data-animate = "${response.data[i].images.fixed_height.url}" data-state="still" style="height: 45%; width: 45%">`);
+                $('#gif-holder').append(`<p>${response.data[i].rating}</p>`);
                 console.log(response);
             };
 
